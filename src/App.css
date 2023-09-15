@@ -1,0 +1,159 @@
+
+/* Navbar */
+.styleNavbar {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styleNavbar h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.styleNavbar nav {
+  display: flex;
+  align-items: center;
+}
+
+.styleNavbar nav li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.styleNavbar nav a {
+  text-decoration: none;
+  color: #1f1c1c;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.styleNavbar nav a:hover {
+  color: var(--background-color);
+  background-color: var(--primary-color);
+  border-radius: 3px;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Botón de cambio de tema */
+.styleNavbar button {
+  background-color: transparent;
+  color: #e40909de;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.styleNavbar button:hover {
+  color: var(--secondary-color);
+}
+/* Tarjetas de médicos */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 1rem;
+  width: 18%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  margin: 0.5rem 1rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: var(--secondary-color);
+}
+/* Formulario de contacto */
+.styleForm {
+  background-color: #fff;
+  color: var(--text-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.styleForm h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.styleForm p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.styleForm div {
+  margin-bottom: 1rem;
+}
+
+.styleForm label {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.styleForm input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+}
+
+.styleForm button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.styleForm button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Mensaje de respuesta */
+.styleForm .message {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
